@@ -122,13 +122,6 @@ init -10 python:
                 self.static[1] if isinstance(self.static, (list, tuple)) 
                 else self.static)
 
-            # self.ref_name = "random_image_{0[0]}_{0[1]}".format(
-            #     renpy.get_filename_line()).replace(' ','_').replace(
-            #     '.','_').replace('/','_')
-
-            # if not hasattr(store, self.ref_name):
-            #     self.set_store_data()
-
             img_size = get_displayable_size(self.images[0])
             renpy.random.shuffle(self.images)
 
