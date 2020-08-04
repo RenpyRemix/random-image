@@ -1,3 +1,3 @@
 # Random Image
 
-This small script just allows a displayable to swap between random images using a dissolve.
+This small script creates a displayable that dissolves between randomly shuffled images at set or random intervals.
