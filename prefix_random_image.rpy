@@ -1,16 +1,16 @@
     ## The config settings create 4 prefixes: (see end of file)
 
     # rnd_dir = shuffled_folder by passing a folder path
-        # show expression "rnd_dir:images/backgrounds"
+        # image random_bg = "rnd_dir:images/backgrounds"
 
     # rnd_tag = shuffled_tag by passing an image tag
-        # show expression "rnd_tag:eileen"
+        # image random_eileen = "rnd_tag:eileen"
 
     # rnd_lst = shuffled_list by passing colon separated images
-        # show expression "rnd_lst:bg 1:bg 4:bg 9:bg 14"
+        # image random_list = "rnd_lst:bg 1:bg 4:bg 9:bg 14"
 
     # rnd_tag2 = rnd_tag with static=4.0 to 10.0, dissolve=2.0 non linear
-        # show expression "rnd_tag2:eileen"
+        # image random_eileen2 = "rnd_tag2:eileen"
 
 
 # Examples
@@ -231,16 +231,16 @@ init -10 python:
             dissolve=2.0, 
             warper="easeout_circ"))
 
-    ## These config settings create 4 prefixes: (adjust/tweak as wanted)
+    ## The config settings create 4 prefixes: (see end of file)
 
     # rnd_dir = shuffled_folder by passing a folder path
-        # show expression "rnd_dir:images/backgrounds"
+        # image random_bg = "rnd_dir:images/backgrounds"
 
     # rnd_tag = shuffled_tag by passing an image tag
-        # show expression "rnd_tag:eileen"
+        # image random_eileen = "rnd_tag:eileen"
 
     # rnd_lst = shuffled_list by passing colon separated images
-        # show expression "rnd_lst:bg 1:bg 4:bg 9:bg 14"
+        # image random_list = "rnd_lst:bg 1:bg 4:bg 9:bg 14"
 
     # rnd_tag2 = rnd_tag with static=4.0 to 10.0, dissolve=2.0 non linear
-        # show expression "rnd_tag2:eileen"
+        # image random_eileen2 = "rnd_tag2:eileen"
